@@ -1,8 +1,9 @@
 ---
 title: "Visualization Finite-Automata"
-date: 2025-01-16 19:25:28 -0400
+date: 2025-01-15 01:25:28 -0400
 categories: [blog]
 tags: [finite-automata, visualization]
+layout: single
 author_profile: true
 ---
 
