@@ -22,5 +22,15 @@ layout: default
       <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
+
+    {% if paginator %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+
+    <div class="entries-list">
+      {% include documents-collection.html entries=posts %}
+    </div>
   </div>
 </div>
