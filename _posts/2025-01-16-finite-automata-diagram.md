@@ -1,7 +1,8 @@
 ---
 title: "Visualization Finite-Automata"
 date: 2025-01-16 19:25:28 -0400
-categories: [resource]
+categories: 
+- resource
 tags: [finite-automata, visualization]
 author_profile: true
 ---
