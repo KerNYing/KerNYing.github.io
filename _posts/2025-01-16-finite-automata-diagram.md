@@ -1,7 +1,7 @@
 ---
 title: "Visualization Finite-Automata"
 date: 2025-01-16 19:25:28 -0400
-categories: resource
+categories: [resource]
 ---
 
 정규표현식을 유한오토마타 다이어그램 형태로 시각화해서 파일형태로 받을 수 있게 해주는 사이트이다.
