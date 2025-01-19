@@ -1,6 +1,6 @@
 ---
 title: "Introduction to digital image processing and spatial filtering"
-date: 2025-01-20 00:00:00 -0000
+date: 2025-01-20 00:00:00 +0900
 categories: [blog]
 tags: [image processing, computer vision]
 layout: single
@@ -15,7 +15,7 @@ author_profile: true
 
 다행히 Expert 과정 수료생은 우선 입과 자격이 주어진다 하여 어느 강의를 들을지 고를 여유도 있었다.
 
-서울대 [이종호 교수님]()의 *Digital Image Processing의 이론과 실습*을 수강 신청했다.
+서울대 [이종호 교수님](https://list.snu.ac.kr/home)의 *Digital Image Processing의 이론과 실습*을 수강 신청했다.
 
 Expert 과정에서도 Image Processing을 활용하여 과제를 진행했고, 학부에서도 여러 Computer Vision 프로젝트를 진행 중인지라 해당 수업으로 신청했다.
 
