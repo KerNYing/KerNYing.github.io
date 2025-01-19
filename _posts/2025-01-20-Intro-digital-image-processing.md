@@ -1,6 +1,6 @@
 ---
 title: "Introduction to digital image processing and spatial filtering"
-date: 2025-01-20 08:05:00 +0000
+date: 2025-01-20 08:05:00 -0900
 categories: [education]
 tags: [image processing, computer vision]
 layout: single
