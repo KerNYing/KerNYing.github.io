@@ -7,6 +7,8 @@ layout: single
 author_profile: true
 ---
 
+Introduction to Digital Image Processing and Spatial Filtering
+
 ## Introduction
 
 회사에서 진행한 **AI & DS Trend Seminar**를 수강하였다. 
