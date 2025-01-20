@@ -2,7 +2,7 @@
 title: "Introduction to digital image processing and spatial filtering"
 date: 2025-01-20 00:00:00 +0900
 categories: [blog]
-tags: [image processing, computer vision]
+tags: [image processing, computer vision, fourier transformation]
 layout: single
 author_profile: true
 ---
@@ -148,16 +148,62 @@ system은 input을 받아서 output을 내보냄
 
 -> Linear Space Invariance System (LSI System)
 
-- 
+
+LSI System을 가지고 있다면
+그 출력은
+impulse response function
+point spread function
+그 입력과 LSI System을 convolution 해준다 -> 모르겠음
+(학부생 기준 1시간반 걸려 설명해야함)
 
 
+LSI System 이라면 나의 출력은 입력과 내 시스템의 point spread function의 convolution으로 결정된다.
+
+convolutional filter를 flip한 다음 sliding window 연산
+-> digital image processing의 두번째 tool
+: convolution을 이용해서 filtering
+
+convolution kernel == IRF == PSF
+
+example2: edge만 남김
+example3: 가로방향의 edge를 주로 남김
+
+kernel을 어떻게 정의하냐 따라 우리가 원하는 filter를 만들 수 있음
+-> image processing의 두번째 기초 방식
+
+## 6 Spatial Filter
+여러 용도의 kernel(==filter)
+- blur, edge 등
+
+origin과 filter 크기가 달라도 padding, crop 등으로 맞추기도 함
+
+smoothing filter
+: low pass filter or moving average filter
 
 
+enhancing or sharpening images
+- strengthen edges of original image
+
+median filter
+- salt and pepper noise
+  
+단점: 처리 후에 noise가 아니라 실제처럼 보임
+
+gaussian noise -> low pass filter
+salt and pepper or impulsive noise -> median filter
+
+## Fourier Transform
+complex exponential function
+discrete fourier transform: 내적
+
+physical meaning: 신호를 decompose -> 분해한다
 
 
+spatial frequency
 
-
-
+## Practice
+using convolution as filter
+smoothing and sharpening with convolution
 
 
 
