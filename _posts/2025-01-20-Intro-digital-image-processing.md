@@ -126,9 +126,29 @@ example: image of moon
 
 
 
-## 4
+## 4 Geometric Operations
+Shift, scale and flip
+rotate, shear
+수학적으로 표기 가능
+모두 통틀어서 **affine** transformation
 
+interpolation
+image를 rotate(example)하면 pixel과 grid가 일치하지 않음
+interpolation하는 여러 방식
+- nearest neighbor, bilinear, bicubic
 
+practical하게는 주위 x,y 15개씩 계산할 때 사람이 구분하기 어려울 정도
+서로 영향을 줄때는 어떻게 우선순위가?
+
+## 5 Convolution
+linear space invariance system
+system은 input을 받아서 output을 내보냄
+- linear: input에 constance를 가감승제 혹은, input끼리 가감승제 해도 output이 동일한 비율로 변화
+- space invariance: input을 shift 시켰을 때, output도 동일하게 shift 됨됨 
+
+-> Linear Space Invariance System (LSI System)
+
+- 
 
 
 
