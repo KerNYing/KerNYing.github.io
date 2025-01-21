@@ -37,7 +37,7 @@ finally {
 <img src="../img/240120_code.png" style="width:80%"> -->
 
 
-<img src='{{ "/assets/img/240120_code.png" | relative_url }}' style="width:80%"> 
+<img src="https://kernying.github.io/img/240120_code.png" style="width:80%"> 
 
 ![alt text]({{site.url}}/assets/images/240120_code.png)
 <!-- ![alt text](https://kernying.github.io/assets/images/240120_code.png) -->
