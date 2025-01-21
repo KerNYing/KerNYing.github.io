@@ -39,6 +39,8 @@ finally {
 
 <img src="../assets/images/240120_code.png" style="width:80%"> 
 
+![alt text](../assets/images/240120_code.png)
+
 <br>
 error 발생을 시키는 과정에서 사용하는 Error라는 객체는 message와 stack property를 가지며, catch (err) 부분에서 파라미터로 들어온 err가 Error 객체이다. 그래서 console.log 로 출력할 때 객체명.message 형태로 error 객체의 내용을 확인한 것이다.
 
