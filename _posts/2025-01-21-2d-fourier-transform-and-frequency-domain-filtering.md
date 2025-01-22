@@ -7,6 +7,16 @@ layout: single
 author_profile: true
 ---
 
+<details>
+<summary>Curriculum</summary>
+Day1: Introduction to digital image processing & Spatial filtering
+<br>
+Day2: 2D Fourier transform and frequency domain filtering & Advanced transformation
+<br>
+Day3: Linear system and solutions for overdetermined problem & Solutions for underdetermined problem
+</details>
+
+
 
 ## 2D Fourier Transform and Frequency Domain Filtering
 2d discrete fourier transform
