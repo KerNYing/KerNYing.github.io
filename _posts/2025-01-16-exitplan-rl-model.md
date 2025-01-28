@@ -25,9 +25,6 @@ Python library인 streamlit을 이용해 유저가 플레이할 수 있도록 �
 
 ![alt text]({{site.url}}/assets/images/streamlit-exitplan.png)
 
-![alt text](https://kernying.github.io/assets/images/streamlit-exitplan.png)
-
-
 삐걱거리지만 어느정도 돌아가는 수준까지는 구현하였다.
 
 이제 주어진 Map을 보고 적절한 말과 이동 방향을 결정하는 강화학습 모델을 구현하고 학습시킬 예정이다.
